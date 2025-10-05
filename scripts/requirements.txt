@@ -1,0 +1,7 @@
+# Python dependencies for BG:EE Glossary Generator
+
+# Progress bar for large file processing
+tqdm>=4.65.0
+
+# Optional: Data validation (uncomment if needed)
+# pydantic>=2.0.0
