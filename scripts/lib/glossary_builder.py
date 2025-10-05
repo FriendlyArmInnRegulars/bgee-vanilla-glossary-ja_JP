@@ -10,6 +10,7 @@ from .models import (
     EntryMetadata, GlossaryMetadata, Glossary, TermInfo
 )
 from .tra_parser import TRAParser
+from .term_extractor import TermExtractor
 
 logger = logging.getLogger(__name__)
 
@@ -19,6 +20,7 @@ class GlossaryBuilder:
 
     def __init__(self):
         self.parser = TRAParser()
+        self.term_extractor = TermExtractor()
 
     def build_from_entries(
         self,
@@ -143,7 +145,7 @@ class GlossaryBuilder:
         Args:
             entries: List of glossary entries
             source_games: List of source games
-            extract_terms: Whether to extract term frequency (Phase 3)
+            extract_terms: Whether to extract term frequency
 
         Returns:
             Complete Glossary object
@@ -151,12 +153,17 @@ class GlossaryBuilder:
         # Build metadata
         metadata = self.build_metadata(entries, source_games)
 
-        # Term frequency (placeholder for now)
+        # Term frequency extraction
         term_frequency = {}
 
         if extract_terms:
-            # TODO: Implement term extraction (Phase 3)
-            logger.info("Term extraction not yet implemented")
+            logger.info("Extracting term frequency...")
+            term_frequency = self.term_extractor.build_term_frequency_index(
+                entries=entries,
+                extract_proper_nouns=True,
+                extract_phrases=True
+            )
+            logger.info(f"Extracted {len(term_frequency)} terms")
 
         return Glossary(
             metadata=metadata,
