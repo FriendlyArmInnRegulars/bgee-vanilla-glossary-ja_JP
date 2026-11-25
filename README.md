@@ -162,6 +162,14 @@ python3 create_glossary.py --games bg2ee --output custom.json --indent 4
 - 用語抽出なし: 57.44 MB
 - 用語抽出付き: 76.69 MB
 
+## 補足用語集 (supplements/)
+
+`supplements/bg1ee_sod_langpack_terms.json` には、[bg1ee-SoDMerged-langpack-ja_JP](https://github.com/FriendlyArmInnRegulars/bg1ee-SoDMerged-langpack-ja_JP) で英語のまま残っていた文字列（SoDの会話・日誌・アイテム等）を翻訳した際に使った訳語を収録しています。公式TRAから自動生成した `glossary.json` / `nouns_glossary.json` とは別管理です。
+
+- `status: "existing"` … 既存の日本語訳から採用した表記（SoD固有の名称など、本用語集に未収録のもの）
+- `status: "new"` … 既存訳が見つからず新たに作成した訳語（レビュー歓迎）
+- `ids` … SoD統合版 dialog.tlk の文字列番号 (`bg1ee_sod:<n>`)
+
 ## 用語集の活用方法
 
 ### 1. 翻訳Mod制作
