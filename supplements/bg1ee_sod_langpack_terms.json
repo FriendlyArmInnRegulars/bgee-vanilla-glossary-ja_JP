@@ -1,0 +1,419 @@
+{
+  "metadata": {
+    "description": "bg1ee-SoDMerged-langpack-ja_JP で未翻訳だった英語文字列を翻訳した際に採用・新規作成した訳語",
+    "source": "https://github.com/FriendlyArmInnRegulars/bg1ee-SoDMerged-langpack-ja_JP",
+    "ids": "bg1ee_sod:<n> は SoD統合版 dialog.tlk の文字列番号",
+    "status": {
+      "existing": "既存の日本語訳から採用した表記",
+      "new": "既存訳が見つからず新たに作成した訳語（要レビュー）"
+    },
+    "date": "2026-11-25",
+    "count": 39
+  },
+  "terms": [
+    {
+      "english": "Kivan",
+      "japanese": "カイヴァン",
+      "category": "proper_noun",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:32759",
+        "bg1ee_sod:32760"
+      ],
+      "note": "クエスト見出しの「キヴァン」をゲーム中の表記に統一"
+    },
+    {
+      "english": "Zaviak's Vision Quest",
+      "japanese": "ザヴィアクのヴィジョン・クエスト",
+      "category": "title",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:45220",
+        "bg1ee_sod:45221",
+        "bg1ee_sod:45222",
+        "bg1ee_sod:45223",
+        "bg1ee_sod:45224",
+        "bg1ee_sod:45225",
+        "bg1ee_sod:45226",
+        "bg1ee_sod:45229",
+        "bg1ee_sod:45260",
+        "bg1ee_sod:45261",
+        "bg1ee_sod:45262"
+      ]
+    },
+    {
+      "english": "Spectacles of Spectacle",
+      "japanese": "壮観の眼鏡",
+      "category": "other",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:45220",
+        "bg1ee_sod:70397"
+      ]
+    },
+    {
+      "english": "Important Events",
+      "japanese": "重要な出来事",
+      "category": "title",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:64565",
+        "bg1ee_sod:65580",
+        "bg1ee_sod:66689"
+      ],
+      "note": "日誌の見出し"
+    },
+    {
+      "english": "Nazramu",
+      "japanese": "ナザラム",
+      "category": "proper_noun",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:45229"
+      ],
+      "note": "SoDでの表記 (BG1の商人はナズラム)"
+    },
+    {
+      "english": "Berrun Ghastkill",
+      "japanese": "ベーラン・ガストキル",
+      "category": "proper_noun",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:32803",
+        "bg1ee_sod:32878"
+      ]
+    },
+    {
+      "english": "Taerom Fuiruim",
+      "japanese": "タエロム・フイルイム",
+      "category": "proper_noun",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:32803"
+      ]
+    },
+    {
+      "english": "Bridgefort",
+      "japanese": "ブリッジフォート",
+      "category": "location",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:43918",
+        "bg1ee_sod:49439",
+        "bg1ee_sod:50528",
+        "bg1ee_sod:66689"
+      ]
+    },
+    {
+      "english": "Coast Way Crossing",
+      "japanese": "コーストウェイクロッシング",
+      "category": "location",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:45222",
+        "bg1ee_sod:45223"
+      ]
+    },
+    {
+      "english": "Shining Lady",
+      "japanese": "輝ける貴婦人",
+      "category": "title",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:48992",
+        "bg1ee_sod:56974"
+      ]
+    },
+    {
+      "english": "Ducal Palace",
+      "japanese": "大公宮殿",
+      "category": "location",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:64565"
+      ]
+    },
+    {
+      "english": "Captain Emesi",
+      "japanese": "エメシ隊長",
+      "category": "proper_noun",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:45659"
+      ]
+    },
+    {
+      "english": "Deneld",
+      "japanese": "デネルド",
+      "category": "proper_noun",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:48938"
+      ],
+      "note": "士気担当官デネルド"
+    },
+    {
+      "english": "Wyrmling",
+      "japanese": "ワームリング",
+      "category": "creature",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:43891",
+        "bg1ee_sod:46378"
+      ],
+      "note": "日誌 #49404 に合わせた"
+    },
+    {
+      "english": "Ring of Protection +1",
+      "japanese": "リング・オブ・プロテクション+1",
+      "category": "other",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:62452"
+      ]
+    },
+    {
+      "english": "Boots of Stealth",
+      "japanese": "ブーツ・オブ・ステルス",
+      "category": "other",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:62446"
+      ]
+    },
+    {
+      "english": "Cloak of Non-Detection",
+      "japanese": "クローク・オブ・ノンディテクション",
+      "category": "other",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:62449"
+      ]
+    },
+    {
+      "english": "Bracers of Defense AC 6",
+      "japanese": "ブレーサー・オブ・ディフェンス：AC6",
+      "category": "other",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:62011"
+      ]
+    },
+    {
+      "english": "STATISTICS:",
+      "japanese": "情報：",
+      "category": "other",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:34081",
+        "bg1ee_sod:43923",
+        "bg1ee_sod:45213",
+        "bg1ee_sod:45231",
+        "bg1ee_sod:45264",
+        "bg1ee_sod:45600",
+        "bg1ee_sod:45633",
+        "bg1ee_sod:45635",
+        "bg1ee_sod:46368",
+        "bg1ee_sod:46378",
+        "bg1ee_sod:50528",
+        "bg1ee_sod:61818",
+        "bg1ee_sod:62064",
+        "bg1ee_sod:70002"
+      ],
+      "note": "アイテム説明の情報欄見出し"
+    },
+    {
+      "english": "Equipped abilities:",
+      "japanese": "装備時効果：",
+      "category": "other",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:34081",
+        "bg1ee_sod:45213",
+        "bg1ee_sod:45231",
+        "bg1ee_sod:45264",
+        "bg1ee_sod:45600",
+        "bg1ee_sod:45633",
+        "bg1ee_sod:45635",
+        "bg1ee_sod:61818",
+        "bg1ee_sod:70002"
+      ]
+    },
+    {
+      "english": "Combat abilities:",
+      "japanese": "戦闘時効果：",
+      "category": "other",
+      "status": "existing",
+      "ids": [
+        "bg1ee_sod:34081",
+        "bg1ee_sod:45213",
+        "bg1ee_sod:50528"
+      ]
+    },
+    {
+      "english": "Tongue of Acid +3",
+      "japanese": "酸の舌+3",
+      "category": "other",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:61643"
+      ]
+    },
+    {
+      "english": "Echo of the Fiend +3",
+      "japanese": "悪鬼の残響+3",
+      "category": "other",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:61647"
+      ]
+    },
+    {
+      "english": "Commander's Chain Mail +3",
+      "japanese": "指揮官のチェインメイル+3",
+      "category": "other",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:61825"
+      ]
+    },
+    {
+      "english": "Circlet of the Cynosure",
+      "japanese": "衆目のサークレット",
+      "category": "other",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:56394"
+      ]
+    },
+    {
+      "english": "Boot and a Half of Speed",
+      "japanese": "一足半のブーツ・オブ・スピード",
+      "category": "other",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:49434"
+      ]
+    },
+    {
+      "english": "Belt of the Cunning Rogue",
+      "japanese": "狡猾なローグのベルト",
+      "category": "other",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:69204"
+      ]
+    },
+    {
+      "english": "Wand of Water Elemental Summoning",
+      "japanese": "ワンド・オブ・ウォーターエレメンタルサモニング",
+      "category": "other",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:61839"
+      ]
+    },
+    {
+      "english": "Bolt of Fire +1",
+      "japanese": "ボルト・オブ・ファイアー+1",
+      "category": "other",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:62058"
+      ]
+    },
+    {
+      "english": "Bolt of Ice +1",
+      "japanese": "ボルト・オブ・アイス+1",
+      "category": "other",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:62488"
+      ]
+    },
+    {
+      "english": "Green Dragon Breath",
+      "japanese": "グリーンドラゴン・ブレス",
+      "category": "spell",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:69576"
+      ],
+      "note": "ブラックドラゴン・ブレスの表記に合わせた"
+    },
+    {
+      "english": "Ethereal Retribution",
+      "japanese": "エーテルの復讐",
+      "category": "spell",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:36712"
+      ]
+    },
+    {
+      "english": "Summon Water Elemental",
+      "japanese": "ウォーターエレメンタル召喚",
+      "category": "spell",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:45214"
+      ]
+    },
+    {
+      "english": "Banish Water Elemental",
+      "japanese": "ウォーターエレメンタル追放",
+      "category": "spell",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:45215"
+      ]
+    },
+    {
+      "english": "Protected From Backstabs",
+      "japanese": "バックスタブから保護",
+      "category": "other",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:45218"
+      ]
+    },
+    {
+      "english": "The Dry Crier",
+      "japanese": "喉の渇いた町の触れ役",
+      "category": "title",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:61681"
+      ]
+    },
+    {
+      "english": "The Wounded Zealot",
+      "japanese": "傷ついた狂信者",
+      "category": "title",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:61867"
+      ]
+    },
+    {
+      "english": "The Desperate Defenders",
+      "japanese": "絶望的な守備隊",
+      "category": "title",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:62483"
+      ]
+    },
+    {
+      "english": "Avernus",
+      "japanese": "アヴェルヌス",
+      "category": "location",
+      "status": "new",
+      "ids": [
+        "bg1ee_sod:45260",
+        "bg1ee_sod:45261",
+        "bg1ee_sod:45262"
+      ]
+    }
+  ]
+}
