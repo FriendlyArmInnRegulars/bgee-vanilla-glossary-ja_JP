@@ -8,7 +8,7 @@
       "new": "既存訳が見つからず新たに作成した訳語（要レビュー）"
     },
     "date": "2026-11-25",
-    "count": 39
+    "count": 40
   },
   "terms": [
     {
@@ -21,6 +21,14 @@
         "bg1ee_sod:32760"
       ],
       "note": "クエスト見出しの「キヴァン」をゲーム中の表記に統一"
+    },
+    {
+      "english": "Korlasz",
+      "japanese": "コルラス",
+      "category": "proper_noun",
+      "status": "existing",
+      "ids": [],
+      "note": "翻訳内で10種類の表記が混在していたため、最も多かった「コルラス」に統一（英語原文にKorlaszを含む全130件）"
     },
     {
       "english": "Zaviak's Vision Quest",
